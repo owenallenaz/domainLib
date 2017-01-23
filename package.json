@@ -1,0 +1,19 @@
+{
+	"name" : "simple-domain",
+	"description" : "Improve handling of node domains by simplifying their usage.",
+	"author" : "Owen Allen <owenallenaz@gmail.com>",
+	"version" : "0.0.1",
+	"devDependencies" : {
+		"async" : "*",
+		"mocha" : "*"
+	},
+	"engines" : { "node" : ">=7.4.0" },
+	"scripts" : {
+		"test" : "mocha --debug $(find testing/ -name *.test.js) -R spec --colors --check-leaks"
+	},
+	"repository" : {
+		"type" : "git",
+		"url" : "https://github.com/owenallenaz/simple-domain.git"
+	},
+	"license" : "MIT"
+}
