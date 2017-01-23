@@ -333,6 +333,8 @@ describe(__filename, function() {
 			var c1 = 0;
 			var c2 = 0;
 			var c3 = 0;
+			var d1;
+			var d3;
 			
 			domainLib.run(function() {
 				d1 = domain.active;
